@@ -4,7 +4,7 @@
   "integrantes": [
     "Angie Sofia Martinez Obando"
   ],
-  "actualizado": "2026-11-07T00:00:44.007Z",
+  "actualizado": "2026-11-07T00:04:40.471Z",
   "entorno": {
     "node": "v24.11.0",
     "sistema": "win32 x64"
@@ -24,10 +24,10 @@
       "titulo": "Adaptadores de salida",
       "puntos": 15,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-11-06T23:58:07.565Z",
-      "comprobaciones": "0/15",
+      "ok": true,
+      "primeraVez": "2026-11-07T00:04:40.570Z",
+      "ultima": "2026-11-07T00:04:40.570Z",
+      "comprobaciones": "15/15",
       "evidencia": ""
     },
     "3": {
