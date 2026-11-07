@@ -4,7 +4,7 @@
   "integrantes": [
     "Angie Sofia Martinez Obando"
   ],
-  "actualizado": "2026-11-07T00:04:40.471Z",
+  "actualizado": "2026-11-07T00:06:51.765Z",
   "entorno": {
     "node": "v24.11.0",
     "sistema": "win32 x64"
@@ -34,10 +34,10 @@
       "titulo": "Adaptador de entrada: la API HTTP",
       "puntos": 20,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-11-06T23:58:07.815Z",
-      "comprobaciones": "1/12",
+      "ok": true,
+      "primeraVez": "2026-11-07T00:06:51.959Z",
+      "ultima": "2026-11-07T00:06:51.959Z",
+      "comprobaciones": "12/12",
       "evidencia": ""
     },
     "4": {
