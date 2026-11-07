@@ -1,0 +1,54 @@
+{
+  "esquema": 1,
+  "equipo": "AngieSofia",
+  "integrantes": [
+    "Angie Sofia Martinez Obando"
+  ],
+  "actualizado": "2026-11-07T00:00:44.007Z",
+  "entorno": {
+    "node": "v24.11.0",
+    "sistema": "win32 x64"
+  },
+  "etapas": {
+    "1": {
+      "titulo": "Casos de uso",
+      "puntos": 15,
+      "extra": false,
+      "ok": true,
+      "primeraVez": "2026-11-07T00:00:44.044Z",
+      "ultima": "2026-11-07T00:00:44.044Z",
+      "comprobaciones": "9/9",
+      "evidencia": ""
+    },
+    "2": {
+      "titulo": "Adaptadores de salida",
+      "puntos": 15,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-11-06T23:58:07.565Z",
+      "comprobaciones": "0/15",
+      "evidencia": ""
+    },
+    "3": {
+      "titulo": "Adaptador de entrada: la API HTTP",
+      "puntos": 20,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-11-06T23:58:07.815Z",
+      "comprobaciones": "1/12",
+      "evidencia": ""
+    },
+    "4": {
+      "titulo": "Composición y regla de dependencias",
+      "puntos": 15,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-11-06T23:58:07.840Z",
+      "comprobaciones": "1/6",
+      "evidencia": ""
+    }
+  }
+}

@@ -20,41 +20,34 @@ import { CODIGOS, ErrorDeDominio } from '../dominio/evaluacion.js';
 import * as Evaluacion from '../dominio/evaluacion.js';
 
 export function crearCasosDeUso({ repositorio }) {
+  // «Buscar o fallar»: la usan ver, calificar y eliminar.
+  function buscar(id) {
+    const encontrada = repositorio.obtener(id);
+    if (!encontrada) throw new ErrorDeDominio(CODIGOS.NO_EXISTE, `No existe la evaluación ${id}.`);
+    return encontrada;
+  }
+
   return {
-    /** Todas las evaluaciones. */
     listar() {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: listar');
+      return repositorio.listar();
     },
-
-    /** Una evaluación por id. Si no existe: ErrorDeDominio con CODIGOS.NO_EXISTE. */
     ver(id) {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: ver');
+      return buscar(id);
     },
-
-    /** Crea una evaluación: el dominio valida con las que ya existen (Evaluacion.crear) y el repositorio la guarda. Devuelve la guardada. */
     crear(datos) {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: crear');
+      const nueva = Evaluacion.crear(datos, repositorio.listar()); // el dominio valida con lo ya guardado
+      return repositorio.guardar(nueva); // el repositorio le pone el id
     },
-
-    /** Le pone nota a una evaluación: busca (NO_EXISTE si falta), el dominio califica (Evaluacion.calificar) y el repositorio guarda. */
     calificar(id, nota) {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: calificar');
+      const calificada = Evaluacion.calificar(buscar(id), nota);
+      return repositorio.guardar(calificada);
     },
-
-    /** Elimina una evaluación. Si no existe: NO_EXISTE. */
     eliminar(id) {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: eliminar');
+      buscar(id); // para que falle con NO_EXISTE si no está
+      repositorio.eliminar(id);
     },
-
-    /** El resumen del semestre: lo calcula el dominio (Evaluacion.resumen) con todas las evaluaciones. */
     resumen() {
-      // TODO etapa 1
-      throw new Error('TODO etapa 1: resumen');
+      return Evaluacion.resumen(repositorio.listar());
     },
   };
 }
