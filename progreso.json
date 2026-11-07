@@ -4,7 +4,7 @@
   "integrantes": [
     "Angie Sofia Martinez Obando"
   ],
-  "actualizado": "2026-11-07T00:30:53.313Z",
+  "actualizado": "2026-11-07T00:35:44.001Z",
   "entorno": {
     "node": "v24.11.0",
     "sistema": "win32 x64"
@@ -16,7 +16,7 @@
       "extra": false,
       "ok": true,
       "primeraVez": "2026-11-07T00:30:56.960Z",
-      "ultima": "2026-11-07T00:30:56.960Z",
+      "ultima": "2026-11-07T00:35:44.659Z",
       "comprobaciones": "2/2",
       "evidencia": "docker 29.9.2"
     },
@@ -26,7 +26,7 @@
       "extra": false,
       "ok": true,
       "primeraVez": "2026-11-07T00:00:44.044Z",
-      "ultima": "2026-11-07T00:00:44.044Z",
+      "ultima": "2026-11-07T00:35:44.667Z",
       "comprobaciones": "9/9",
       "evidencia": ""
     },
@@ -36,7 +36,7 @@
       "extra": false,
       "ok": true,
       "primeraVez": "2026-11-07T00:04:40.570Z",
-      "ultima": "2026-11-07T00:04:40.570Z",
+      "ultima": "2026-11-07T00:35:44.701Z",
       "comprobaciones": "15/15",
       "evidencia": ""
     },
@@ -46,7 +46,7 @@
       "extra": false,
       "ok": true,
       "primeraVez": "2026-11-07T00:06:51.959Z",
-      "ultima": "2026-11-07T00:06:51.959Z",
+      "ultima": "2026-11-07T00:35:44.775Z",
       "comprobaciones": "12/12",
       "evidencia": ""
     },
@@ -56,9 +56,29 @@
       "extra": false,
       "ok": true,
       "primeraVez": "2026-11-07T00:09:36.938Z",
-      "ultima": "2026-11-07T00:09:36.938Z",
+      "ultima": "2026-11-07T00:35:44.799Z",
       "comprobaciones": "6/6",
       "evidencia": ""
+    },
+    "5": {
+      "titulo": "Imagen: la API en un contenedor",
+      "puntos": 25,
+      "extra": false,
+      "ok": true,
+      "primeraVez": "2026-11-07T00:34:49.267Z",
+      "ultima": "2026-11-07T00:35:48.510Z",
+      "comprobaciones": "4/4",
+      "evidencia": "docker 29.9.2; imagen sha256:269bdcae7d9c"
+    },
+    "6": {
+      "titulo": "Extra: datos que sobreviven en un volumen",
+      "puntos": 10,
+      "extra": true,
+      "ok": true,
+      "primeraVez": "2026-11-07T00:34:59.515Z",
+      "ultima": "2026-11-07T00:34:59.515Z",
+      "comprobaciones": "3/3",
+      "evidencia": "docker 29.9.2; volumen"
     }
   }
 }
