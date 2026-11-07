@@ -4,7 +4,7 @@
   "integrantes": [
     "Angie Sofia Martinez Obando"
   ],
-  "actualizado": "2026-11-07T00:35:44.001Z",
+  "actualizado": "2026-11-07T00:45:53.600Z",
   "entorno": {
     "node": "v24.11.0",
     "sistema": "win32 x64"
@@ -79,6 +79,16 @@
       "ultima": "2026-11-07T00:34:59.515Z",
       "comprobaciones": "3/3",
       "evidencia": "docker 29.9.2; volumen"
+    },
+    "7": {
+      "titulo": "Extra: el mismo resultado con los dos motores",
+      "puntos": 10,
+      "extra": true,
+      "ok": true,
+      "primeraVez": "2026-11-07T00:46:10.532Z",
+      "ultima": "2026-11-07T00:46:10.532Z",
+      "comprobaciones": "7/7",
+      "evidencia": "docker 29.9.2 + podman 6.1.4"
     }
   }
 }
