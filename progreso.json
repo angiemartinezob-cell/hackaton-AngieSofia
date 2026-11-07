@@ -4,7 +4,7 @@
   "integrantes": [
     "Angie Sofia Martinez Obando"
   ],
-  "actualizado": "2026-11-07T00:06:51.765Z",
+  "actualizado": "2026-11-07T00:09:36.666Z",
   "entorno": {
     "node": "v24.11.0",
     "sistema": "win32 x64"
@@ -44,10 +44,10 @@
       "titulo": "Composición y regla de dependencias",
       "puntos": 15,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-11-06T23:58:07.840Z",
-      "comprobaciones": "1/6",
+      "ok": true,
+      "primeraVez": "2026-11-07T00:09:36.938Z",
+      "ultima": "2026-11-07T00:09:36.938Z",
+      "comprobaciones": "6/6",
       "evidencia": ""
     }
   }
